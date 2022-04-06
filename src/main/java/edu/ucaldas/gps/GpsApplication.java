@@ -19,4 +19,9 @@ public class GpsApplication {
 	return String.format("Hello %s!", name);
 }
 
+
+public class prueba(){
+	
+}
+
 }
