@@ -15,13 +15,13 @@ public class GpsApplication {
 	}
 
 	@GetMapping("/hello")
-	public String hello(@RequestParam(value = "name", defaultValue = "World") String name) {
+	public String hello(@RequestParam(value = "name", defaultValue = "juan") String name) {
 	return String.format("Hello %s!", name);
 }
 
 
 public class prueba(){
-	
+
 }
 
 }
