@@ -20,8 +20,5 @@ public class GpsApplication {
 }
 
 
-public class prueba(){
-
-}
 
 }
