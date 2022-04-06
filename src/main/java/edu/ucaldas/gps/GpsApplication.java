@@ -15,7 +15,7 @@ public class GpsApplication {
 	}
 
 	@GetMapping("/hello")
-	public String hello(@RequestParam(value = "name", defaultValue = "juan") String name) {
+	public String hello(@RequestParam(value = "name", defaultValue = "Hello Shonatan") String name) {
 	return String.format("Hello %s!", name);
 }
 
